@@ -1,0 +1,46 @@
+.text_center{
+  &_img {
+    width: 100%;
+      
+  }
+  
+  p{
+    font-size: 18px;
+    text-align: center;
+    margin: 30px 0 30px
+      
+  }
+  
+  h1{
+    text-align: center;
+    padding: 50px 0 50px;
+  }
+  
+  
+}
+
+.col_principal{
+
+  p{
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 30px 0 30px;
+    letter-spacing: 2px;
+
+  }
+}
+  
+.row_secundaria {
+
+  img{
+    height: 75%;
+    width: 100%;
+    justify-content: center;
+    
+  }
+  p{
+    text-align: center;
+    margin-top: 50px;
+  }
+}
+  

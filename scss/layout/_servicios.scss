@@ -1,0 +1,66 @@
+#atributo_servicios {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+    grid-template-rows: repeat(4, 400px);
+    text-align: center;
+    row-gap: 60px;
+  
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  
+    .servicios {
+      grid-column: 2 / 4;
+      grid-row: 1/ 2;
+      align-self: center;
+  
+      &_img{
+        grid-column: 4 / 6;
+        grid-row: 1/ 2;
+        
+      }
+    } 
+    
+    .coach{
+      grid-column: 4 / 6;
+      grid-row: 2 / 3;
+      align-self: center;
+  
+      &_img{
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+  
+      }
+  
+    }
+  
+    .brand{
+      grid-column: 2 / 4;
+      grid-row: 3 / 4;
+      align-self: center;
+  
+      &_img{
+        grid-column: 4 / 6;
+        grid-row: 3 / 4;
+      }
+    
+    }
+  
+    .web{
+      grid-column: 4 / 6;
+      grid-row: 4 / 5;
+      align-self: center;
+  
+      &_img{
+        grid-column: 2 / 4;
+        grid-row: 4 / 5;
+  
+      }
+  
+  
+    }
+  
+  
+  }
+  
