@@ -76,6 +76,10 @@ h1, h2, h3, h4, h5, h6 {
   grid-template-rows: repeat(4, 400px);
   text-align: center;
   row-gap: 60px;
+  padding: 30px;
+}
+#atributo_servicios p {
+  padding: 30px;
 }
 #atributo_servicios img {
   height: 100%;
@@ -258,6 +262,14 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 100%;
     height: auto;
   }
+  .sec_contacto p {
+    display: flex;
+    flex-direction: column;
+  }
+  .formulario_contacto {
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 576px) {
   .container_index {
@@ -333,6 +345,16 @@ h1, h2, h3, h4, h5, h6 {
   }
   .sec_info img {
     display: none;
+  }
+  .sec_contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+  }
+  .formulario_contacto {
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
   }
 }
 

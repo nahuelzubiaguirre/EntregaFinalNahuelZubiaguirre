@@ -94,6 +94,23 @@
     height: auto;
   }
 
+  //Contacto
+
+  .sec_contacto{
+    
+    p{
+      display: flex;
+      flex-direction: column;
+    }
+
+  }
+  
+  .formulario_contacto{
+    display: flex;
+    flex-direction: column;
+
+  }
+
 
 }
 
@@ -212,6 +229,21 @@
     }
   }
 
-  
+  // Contacto
 
+  .sec_contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+
+    
+
+  }
+  
+  .formulario_contacto{
+    display: flex;
+    flex-direction: column;
+    margin: 0 60px;
+
+    }
 }
